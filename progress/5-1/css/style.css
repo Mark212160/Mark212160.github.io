@@ -52,7 +52,7 @@ p{
 }
 
 nav{
-	position: ;
+	position: fixed;
 	top: 10px;
 	left: 10px;
 	font-family: Poppings, sans-serif;
