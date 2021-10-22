@@ -52,11 +52,31 @@ p{
 }
 
 nav{
+	position: fixed;
+	top: 10px;
+	left: 10px;
 	font-family: Poppings, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
 }
 
-a{
+nav>a{
+	background-color: #323232;
+	color: white;
+	padding: 2px 4px;
 	text-decoration: none;
+	opacity: 0.6;
+}
+
+nav>a{
+	border-left: solid 2px white;
+}
+
+nav>a:visited {
+	color: white;
+}
+
+a, a: visited{           /* "," = "or" */
+	color: #323232;
+	text-decoration: underline;
 }
