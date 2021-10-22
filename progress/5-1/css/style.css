@@ -68,7 +68,7 @@ nav>a{
 	opacity: 0.6;
 }
 
-nav>a{
+nav>a:not(:first-of-type){
 	border-left: solid 2px white;
 }
 
