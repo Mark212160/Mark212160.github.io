@@ -54,6 +54,10 @@ section {
 	margin: 1.2vh 0;
 }
 
+section>p{
+	text-indent: 5%;
+}
+
 section > p {
 	text-indent: 5%;
 }
@@ -95,7 +99,7 @@ nav > a:visited {
 	color: white;
 }
 
-a, a:visited {
+a, a:visited {             /* "," = "or" */
 	color: #323232;
 	text-decoration: underline;
 }
