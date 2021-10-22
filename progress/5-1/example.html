@@ -15,7 +15,8 @@
                  color: white;
             }
             span.vocab>span{
-                display: none; 
+                display: none;
+                position: fixed; 
                 top: 50%;
                 left: 10px;
                 text-transform: translateY(-50%);
@@ -24,6 +25,11 @@
                 border-radius: 2px;
                 background-color: #dfc27d;
                 color: #000a16;
+            }
+
+            span.vocab:hover>span{
+                display: block;
+                opacity: 0.9;
             }
         </style>
     </head>
