@@ -21,8 +21,8 @@ body {
 	line-height: 3vh;
 }
 
-nav, article{
-		    	text-align: center;width: 60%; margin-left: 20%;}
+nav{
+		    	text-align: center;width: 20%; margin-left: 80%;}
 
 nav > a:not(:first-of-type) {
 	border-left: solid 2px white;
