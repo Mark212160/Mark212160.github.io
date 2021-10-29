@@ -33,3 +33,6 @@ nav > a:hover {
 	opacity: 0.95;
 }
 
+nav>a {
+	text-decoration: none;
+}
