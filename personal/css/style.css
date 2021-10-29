@@ -20,3 +20,16 @@ body {
 	font-size: 2vh;
 	line-height: 3vh;
 }
+
+nav > a:not(:first-of-type) {
+	border-left: solid 2px white;
+}
+
+nav > a:first-of-type {
+	width: 2.4vw;
+}
+
+nav > a:hover {
+	opacity: 0.95;
+}
+
