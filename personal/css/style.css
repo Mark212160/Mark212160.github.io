@@ -22,7 +22,7 @@ body {
 }
 
 nav, article{
-		    	width: 60%; margin-left: 20%;}
+		    	text-align: center;width: 60%; margin-left: 20%;}
 
 nav > a:not(:first-of-type) {
 	border-left: solid 2px white;
