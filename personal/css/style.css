@@ -21,7 +21,7 @@ body {
 	line-height: 3vh;
 }
 
-nav{
+nav, article{
 		    	width: 60%; margin-left: 20%;}
 
 nav > a:not(:first-of-type) {
