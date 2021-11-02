@@ -34,7 +34,7 @@ nav{
 	text-decoration: none;
 		    }
 
-nav > a:not(:last-of-type) {
+nav > a:not(:first-of-type) {
 	border-left: solid 2px white;
 }
 
