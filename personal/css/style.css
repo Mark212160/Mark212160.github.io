@@ -45,8 +45,8 @@ nav > a:hover {
 	opacity: 0.95;
 }
 
-nav>a {
+nav>a:not(:first-of-type) {
     padding: 2px 4px;
 	text-decoration: none;
-	opacity: 0.6;
+	opacity: 0;
 	}
