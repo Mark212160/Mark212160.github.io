@@ -34,11 +34,11 @@ nav{
 	text-decoration: none;
 		    }
 
-nav > a:not(:first-of-type) {
+nav > a:not(:last-of-type) {
 	border-left: solid 2px white;
 }
 
-nav > a:first-of-type {
+nav > a:last-of-type {
 	width: 2.4vw;
 }
 
