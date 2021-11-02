@@ -31,6 +31,7 @@ nav{
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
+	text-decoration: none;
 		    }
 
 nav > a:not(:last-of-type) {
@@ -47,6 +48,5 @@ nav > a:hover {
 
 nav>a:not(:last-of-type) {
     padding: 2px 4px;
-	text-decoration: none;
 	opacity: 0;
 	}
