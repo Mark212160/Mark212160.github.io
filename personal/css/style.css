@@ -33,7 +33,7 @@ nav{
 	line-height: 3vh;
 		    }
 
-nav > a:not(:first-of-type) {
+nav > a:not(:last-of-type) {
 	border-left: solid 2px white;
 }
 
@@ -45,7 +45,7 @@ nav > a:hover {
 	opacity: 0.95;
 }
 
-nav>a:not(:first-of-type) {
+nav>a:not(:last-of-type) {
     padding: 2px 4px;
 	text-decoration: none;
 	opacity: 0;
