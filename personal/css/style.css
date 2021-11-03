@@ -21,7 +21,7 @@ body {
 	line-height: 3vh;
 }
 
-nav{
+nav > a {
 		    	text-align: center;
 		    	width: 20%; 
 		    	margin-left: 80%;
@@ -34,7 +34,7 @@ nav{
 	text-decoration: none;
 		    }
 
-nav{
+nav > a{
 	color: black;
 }
 
