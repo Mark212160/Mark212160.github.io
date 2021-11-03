@@ -56,5 +56,5 @@ nav > a:hover {
 
 nav>a:not(:last-of-type) {
     padding: 2px 4px;
-	opacity: 0;
+	opacity: 0.6;
 	}
