@@ -50,10 +50,10 @@ nav > a:last-of-type {
 	width: 2.4vw;
 }
 
-nav > a:hover {
+nav:hover > a {
 	opacity: 0.95;
 }
 
 nav>a:not(:last-of-type) {
-	opacity: 0.6;
+	opacity: 0;
 	}
