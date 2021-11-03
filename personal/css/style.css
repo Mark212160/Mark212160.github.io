@@ -34,6 +34,14 @@ nav{
 	text-decoration: none;
 		    }
 
+nav{
+	color: black;
+}
+
+nav > a:visited {
+	color: black;
+}
+
 nav > a:not(:last-of-type) {
 	border-left: solid 2px white;
 }
