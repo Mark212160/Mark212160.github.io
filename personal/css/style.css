@@ -42,12 +42,12 @@ nav > a:visited {
 	color: black;
 }
 
-
+		
 nav > a:last-of-type {
 	width: 2.4vw;
 }
 
-nav:hover > a {
+nav > a:hover {
 	opacity: 0.95;
 }
 
