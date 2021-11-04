@@ -24,8 +24,8 @@ body {
 
 nav{
 		    	text-align: center;
-		    	width: 5%; 
-		    	margin-left: 80%;
+		    	width: 100%; 
+		    	margin-left: 90%;
 		    	position: fixed;
 	top: 10px;
 	left: 10px;
@@ -35,11 +35,11 @@ nav{
 		    }
 
 a{
-	display: block; width: 380px; height: 25px; line-height: 25px;
+	display: block; width: 5vw; height: 25px; line-height: 25px;
 }
 
 a:first-of-type {
-	width: 450px;
+	width: 10vw;
 }
 
 nav > a{
