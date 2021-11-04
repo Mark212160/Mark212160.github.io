@@ -32,6 +32,8 @@ nav{
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
+	background-color: lightgrey;
+	opacity: 0;
 		    }
 
 a{
