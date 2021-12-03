@@ -4,14 +4,14 @@
 		<title>Quiz 7</title>
 		<meta charset="utf-8">
 		<!-- Please have a copy of jQuery in the same folder -->
-		<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
 		<script>
 			// Hint: Every time you hit the "Light up!" button, this variable increases by 1 (index += 1 or index = index + 1).
 			let index = 0;
 			window.onload = function() {
  				// Edit the jQuery event listener for the "Light up!" button here.
  				$('button').on('click', function() {
-					$('span').eq[0].addClass('lightup');
+					$('span').eq(index+1).addClass('lightup');
 				
  				});
 			};
@@ -40,7 +40,7 @@
 			span.lightUp {
                  animation: bgChange 1s linear infinite alternate ;
                  opacity: 1;
-				 /*transition: all 1s linear;*/
+				 transition: all 1s linear;
 			}
 
  			/* Set changes at 0%, 50%, and 100% for the background color */
