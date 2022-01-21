@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title>Example 13-2: jQuery animation with more flexibility</title>
+		<meta charset="utf-8">
+		<script type="text/javascript
+		" src="../js/jquery-3.6.0.min.js"></script>
+		<script>
+			window.onload = function() {
+				$('button#changeSize').on('click', function() {
+					// animate() takes an object representing a CSS and the time length.
+					$('div#onnewSize').animate({
+						width: '100px',height: '100px'
+					}, 1000);
+					$('button#moveDiv').on('click', function() {
+						$('div#moving').animate({
+							left: '50vw'
+						}, 2000);
+					});
+					$('button#changeSizePos').on('click', function() {
+						// Chain effects
+						$('div#biggerToTheRight').animate({}, 500).animate({
+							width: '100px',
+							height: '100px'
+						}, 500).animation({
+							left: '50vw'
+						}, 1000);
+					});
+				});
+			};
+		</script>
+	</head>
+	<body>
+		<div id="newSize" style="width: 50px; height: 50px; background-color: orange;"></div>
+		<button id="changeSize">hange Size</button>
+		<div id="moving" style="position: relative;width: 50px; height:50px; background-color: crimson;"></div>
+		<button id="moveDiv">Move a Div</button>
+		<div id="bigger To The Right" style="position: relative; width: 50px; height: 50px; background-color: blue;"></div>
+		<button id="changeSize Pos">Change Size and Move!</button>
+	</body>
+</html>

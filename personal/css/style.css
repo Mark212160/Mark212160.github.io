@@ -45,29 +45,37 @@ h3 {
 }
 
 nav{
-		    	width: 100%; 
-		    	margin-left: 90%;
-		    	position: fixed;
-	top: 1vw;
-	left: 0.1vw;
+	display: block;
+	width: 100%; 
+	margin-left: 89%;
+	position: fixed;
+	top: 0.3vh;
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
-	line-height: 3vh;
+	
+
 		    }
 
 a{
-	display: block; width: 10vw; height: 25px; line-height: 25px; padding-left: 3vw;
+	display: block; 
+	width: 11%; 
+	height: 25px; 
+	line-height: 25px; 
+	padding-left: 1.5vw;
+	
 }
 
 nav>a:first-of-type {
-	width: 10vw;
-	padding-left: 8vw;
+	
+	padding-left: 8.3vw;
+	
 }
 
 nav > a{
 	color: black;
 	text-decoration: none;
-
+	padding-right: 0.6vw;
+	
 }
 
 nav+a {
@@ -89,4 +97,19 @@ nav > a:not(:first-of-type) {
 
 nav:hover > a{
 	opacity: 1;
+	transition: opacity 1.2s linear;
+	
 }
+
+nav > a > img {
+	float: right;
+}
+
+
+
+nav > a > button {
+	border-color: transparent;
+	background-color: transparent;
+	
+}
+

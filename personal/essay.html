@@ -2,23 +2,67 @@
 <html lang="en">
      <head>
      	<title>Mark212160 Personal Website</title>
+      <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+      <script>
+        window.onload = function() {
+            
+            var header = $('body');
+            var linearGradient = 'linear-gradient( 0deg, rgba(0,0,0,0.7) 100%, rgba(255,255,255,0.7) 99%)';
+            var newCSS = {
+                'background-image': linearGradient,
+               'background-repeat': 'no-repeat',
+               'background-size': 'cover',
+               'background-attachment': 'fixed',
+               'transition': 'background 1s'
+            };
+
+            header.css(newCSS);
+
+            var backgrounds = new Array(
+                'url(https://wallpapers.com/images/high/no-time-to-die-james-gun-barrel-r3c2bwj21kmxyvex.jpg)',
+                'url(https://i0.wp.com/image.tmdb.org/t/p/original/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg)',
+                'url(https://www.pixel4k.com/wp-content/uploads/2020/05/no-time-to-die-2020_1589578188-2048x1365.jpg)'
+                
+            );
+ 
+
+            var current = 0;
+
+            function nextBackground() {
+                current++;
+                current = current % backgrounds.length;
+                newCSS['background-image'] = linearGradient + ',' + backgrounds[current];
+                //header.css('background-image', backgrounds[current]);
+                header.css(newCSS);
+            }
+            setInterval(nextBackground, 3000);
+
+            newCSS['background-image'] = linearGradient + ',' + backgrounds[0];
+            header.css(newCSS);
+            
+            
+                    };
+      </script>
      	<meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <style>
         	    body{  
-          
-            background-image: linear-gradient( 0deg, rgba(0,0,0,0.7) 100%, rgba(255,255,255,0.7) 99%), url(https://i0.wp.com/image.tmdb.org/t/p/original/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg);
+            /*background-image: linear-gradient( 0deg, rgba(0,0,0,0.7) 100%, rgba(255,255,255,0.7) 99%), url(https://i0.wp.com/image.tmdb.org/t/p/original/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
-
-
+            background-attachment: fixed;*/
              }
+            
+
+            
         </style>
      </head>
      <body>
        <nav>
-         <a style=" color: white;">+</a> <a style=" color: white;" href="index.html"> Home</a><a style=" color: white;" href="about.html"> About</a> <a style=" color: white;" href="essay.html"> Movie Essay</a>
+        <a><button><img src="img/menu_white.svg"></button></a>
+        <a style="color: white;"href="index.html"> Home<img src="img/home_white.svg" /></a>
+        <a style="color: white;"href="about.html"> About<img src="img/person_white.svg" /></a>
+        <a style="color: white;"href="essay.html"> Movie Essay<img src="img/article_white.svg" /></a>
        </nav>
        <a style=" color: white; text-decoration: none;" href="ChineseEssay.html">中文</a>
         <article style="position: relative; text-align: left;width: 60%; padding: 5px;margin: 1% 0 0 20%;">
